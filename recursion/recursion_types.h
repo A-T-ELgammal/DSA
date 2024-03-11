@@ -40,3 +40,13 @@ void headRecursionToLoop(int n)
         i++;
     }
 }
+
+void treeRecursion(int n)
+{
+    if (n > 0)
+    {
+        cout << n << " , ";
+        treeRecursion(n - 1);
+        treeRecursion(n - 1);
+    }
+}

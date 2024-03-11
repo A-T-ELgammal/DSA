@@ -10,5 +10,6 @@ int main()
     // tailRecursion(3);
     // tailRecursionLoop(3);
     // headRecursionToLoop(4);
+    treeRecursion(3);
     return 0;
 }
