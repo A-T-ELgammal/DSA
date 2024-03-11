@@ -24,11 +24,4 @@ int fun2(int n)
     return 0;
 }
 
-int main()
-{
-    cout << fun1(5) << endl;
-    cout << fun2(5);
-    cout << "\nsecond call with double value: " << fun2(5);
 
-    return 0;
-}

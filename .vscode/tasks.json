@@ -7,7 +7,7 @@
       "args": [
         "-g",
         "-std=c++17",
-        "${workspaceFolder}/recursion/*.cpp",
+        "${workspaceFolder}/*.cpp",
         "-o",
         "${workspaceFolder}/main"
       ],

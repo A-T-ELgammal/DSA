@@ -69,6 +69,14 @@
     "cinttypes": "cpp",
     "typeindex": "cpp",
     "typeinfo": "cpp",
-    "variant": "cpp"
+    "variant": "cpp",
+    "charconv": "cpp",
+    "compare": "cpp",
+    "concepts": "cpp",
+    "format": "cpp",
+    "numbers": "cpp",
+    "semaphore": "cpp",
+    "span": "cpp",
+    "stop_token": "cpp"
   }
 }
