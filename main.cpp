@@ -10,6 +10,8 @@ int main()
     // tailRecursion(3);
     // tailRecursionLoop(3);
     // headRecursionToLoop(4);
-    treeRecursion(3);
+    // treeRecursion(3);
+    // indirectRecursionA(20);
+    cout << nestedRecursion(95);
     return 0;
 }
