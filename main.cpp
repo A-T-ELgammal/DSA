@@ -20,8 +20,10 @@ int main()
     Array arr;
     arr.scanInputArray();
     arr.displayArray();
-    arr.appendElement(3);
+    // arr.appendElement(3);
+    // arr.displayArray();
+    arr.insertElement(3, 1);
     arr.displayArray();
-    
+
     return 0;
 }

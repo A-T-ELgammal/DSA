@@ -1,4 +1,5 @@
 #include <cstdio>
+#include <stdexcept>
 class Array
 {
     int *A, size, length = 0;
@@ -27,5 +28,16 @@ public:
         scanf("%d", &el);
         A[length] = el;
         length++;
+    }
+    void insertElement(int index, int el)
+    {
+        if (index >= 0 && index <= length)
+        {
+            for (int i = length; i > index; i--)
+                A[i - 1] = A[i];
+            A[index] = el;
+            length++;
+        }
+        throw std::invalid_argument("index must be less than length");
     }
 };
