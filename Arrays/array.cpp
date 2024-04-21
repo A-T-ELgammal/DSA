@@ -1,6 +1,4 @@
 #include <iostream>
-#include "array-representation/Array_representation.h"
-
 using namespace std;
 int main()
 {
@@ -29,14 +27,15 @@ int main()
     //     cout << p[i];
     ///////////////////
     // 2D Array dedfinition
-    int A[1][2] = {{1, 2}}; // in stack
-    int *B[1];              // int heap using pointer row in stack and column in heap
-    B[0] = new int[2];
-    int **C = new int *[2];
-    C[0] = new int[3];
-    C[1] = new int[3];
-    for (int i = 0; i < 2; i++)
-        for (int j = 0; j < 3; j++)
-            cout << C[i][j] << endl;
+    // int A[1][2] = {{1, 2}}; // in stack
+    // int *B[1];              // int heap using pointer row in stack and column in heap
+    // B[0] = new int[2];
+    // int **C = new int *[2];
+    // C[0] = new int[3];
+    // C[1] = new int[3];
+    // for (int i = 0; i < 2; i++)
+    //     for (int j = 0; j < 3; j++)
+    //         cout << C[i][j] << endl;
+    /////////////////////
     return 0;
 }
