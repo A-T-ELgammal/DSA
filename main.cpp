@@ -20,6 +20,8 @@ int main()
     Array arr;
     arr.scanInputArray();
     arr.displayArray();
+    arr.appendElement(3);
+    arr.displayArray();
     
     return 0;
 }
