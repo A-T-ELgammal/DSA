@@ -45,8 +45,11 @@ public:
     void deleteElement(int index)
     {
         if (index >= 0 && index <= length)
+        {
             for (int i = index; i < length - 1; i++)
                 A[i] = A[i + 1];
-        length--;
+            length--;
+        }
+        throw std::invalid_argument("index must be less than length");
     }
 };
