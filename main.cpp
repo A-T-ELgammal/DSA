@@ -20,9 +20,13 @@ int main()
     Array arr;
     arr.scanInputArray();
     arr.displayArray();
+    cout << std::endl;
     // arr.appendElement(3);
     // arr.displayArray();
     arr.insertElement(3, 1);
+    arr.displayArray();
+    cout << std::endl;
+    arr.deleteElement(3);
     arr.displayArray();
 
     return 0;
